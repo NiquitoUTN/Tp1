@@ -4,11 +4,6 @@ body{
     margin: 0px;
 }
 
-footer{
-    background-color: gray;
-    
-    padding: 40px;
-}
 
 .encabezado{
     background-color: #112F7D ;
@@ -17,6 +12,7 @@ footer{
     align-items: center;
     justify-content: space-between; 
     padding: 20px;
+    width: auto;
 
 }
 
@@ -84,6 +80,7 @@ footer{
 
 }
 
+
 .seccion1 h1{
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -139,15 +136,11 @@ footer{
     margin: 10px;
 }
 
-.div-img{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    max-width: 800px;
-}
+
+
 
 .imagen1{
-    flex: 1;
+    
     margin: 40px;
     width: 60%;
     height: auto;
@@ -155,5 +148,25 @@ footer{
     
 }
 
+.contacto{
+    display: flex;
+    background-color: #112F7D;
+    padding: 40px;
+    width: auto;
+}
 
+
+.contacto p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.contacto a {
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    font-size: 40px;
+    padding: 10px;
+}
 
