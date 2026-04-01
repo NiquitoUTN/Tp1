@@ -1,0 +1,40 @@
+
+body {
+    background-color: beige;
+    
+}
+
+.central {
+    background-color: #dfdede;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    
+}
+
+.central input{
+    width: 30%;
+    height: 40px;
+    margin: 20px;
+    color: #dfdede;
+}
+
+.etiqueta{
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+.central button{
+    width: 30%;
+    height: 40px;
+    margin: 20px;
+    color: #dfdede;
+    background-color: #112F7D;   
+}
+
