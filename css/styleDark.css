@@ -1,0 +1,212 @@
+
+
+body{
+    margin: 0px;
+    background-color: #2e2e2e; /* Gris */
+}
+h3{
+    padding-left: 30px;
+    text-decoration: underline;
+    color:#ffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado{
+    background-color: #112F7D ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    width: auto;
+
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    font-size: 30px;
+    margin-right: 20px;
+    font-family: "Lucida Bright", "Bitstream Charter", serif;
+    
+}
+
+.botones a{
+    color: #000000;
+    text-decoration: none;
+}
+.logo{
+    font-weight: bold; 
+    color: #000000;
+    font-size: 30px;
+
+}
+
+.imagen1{
+    
+    margin: 40px;
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.inicio {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Imagenes/nico paz.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #9e9e9e;
+}
+
+.inicio-content h1 {
+    color: #9e9e9e;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: "Copperplate", "Copperplate Gothic Light", serif;
+}
+
+.inicio-content p{
+    font-family: "Copperplate", "Copperplate Gothic Light", serif;
+}
+
+.centro-titulo-info{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-info {
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #112F7D;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.titulo-info h1{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+
+.seccion1{
+    background-color: #2e2e2e; /* Gris */
+    margin: 10px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: #2e2e2e; /* Gris */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.seccion1 h1{
+    font-family: 'Roboto', sans-serif;
+    color: #ffff; /* Blanco */
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.seccion1 p{
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;/* Blanco */
+    text-align: justify;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.seccion2{
+    background-color: #2e2e2e;/* Gris */
+    margin: 10px;
+    border-radius: 20px;
+    width: 20%;
+    box-shadow: #2e2e2e; /* Gris */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+.seccion2 h1{
+    font-family: 'Roboto', sans-serif;
+    color: #ffff; /* Blanco */
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.seccion2 h2{
+    font-family: 'Roboto', sans-serif;
+    color: #ffff; /* Blanco */
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+.seccion2 p{
+    font-family: 'Arimo', sans-serif;
+    color: #ffff; /* Blanco */
+    text-align: justify;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.seccion2 li{
+    font-family: 'Arimo', sans-serif;
+    color: #ffff; /* Blanco */
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.contacto{
+    display: flex;
+    background-color: #112F7D;
+    padding: 40px;
+    width: auto;
+}
+
+
+.contacto p{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.contacto a {
+    text-decoration: none;
+    color: #000000;
+    height: 40px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.text-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
