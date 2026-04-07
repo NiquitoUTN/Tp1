@@ -2,8 +2,14 @@
 
 body{
     margin: 0px;
+    background-color: #dfdede;
 }
-
+h3{
+    padding-left: 30px;
+    text-decoration: underline;
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+}
 
 .encabezado{
     background-color: #112F7D ;
@@ -32,11 +38,19 @@ body{
 }
 .logo{
     font-weight: bold; 
-    color: white;
+    color: #ffffff;
     font-size: 30px;
 
 }
 
+.imagen1{
+    
+    margin: 40px;
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+    
+}
 
 .inicio {
   
@@ -48,7 +62,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .inicio-content h1 {
@@ -61,6 +75,33 @@ body{
 .inicio-content p{
     font-family: "Copperplate", "Copperplate Gothic Light", serif;
 }
+
+.centro-titulo-info{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-info {
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #112F7D;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.titulo-info h1{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+
+
 
 .info{
     display: flex;
@@ -76,20 +117,20 @@ body{
     border-radius: 20px;
     width: 50%;
     box-shadow: #d0d0d0;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 
 }
 
 
 .seccion1 h1{
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #000000;
     padding-left: 20px;
     margin-bottom: 10px;
 }
 .seccion1 p{
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #000000;
     text-align: justify;
     margin-top: 0px;
     padding-left: 40px;
@@ -100,28 +141,31 @@ body{
     background-color: #dfdede;
     margin: 10px;
     border-radius: 20px;
-    width: 30%;
+    width: 20%;
     box-shadow: #d0d0d0;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 20px;
+    height: fit-content;
 }
 
 .seccion2 h1{
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #000000;
     padding-left: 20px;
     margin-bottom: 10px;
 }
 
 .seccion2 h2{
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #000000;
     padding-left: 40px;
     margin-bottom: 5px;
 }
 
 .seccion2 p{
     font-family: 'Arimo', sans-serif;
-    color: black;
+    color: #000000;
     text-align: justify;
     margin-top: 0px;
     padding-left: 40px;
@@ -130,23 +174,12 @@ body{
 
 .seccion2 li{
     font-family: 'Arimo', sans-serif;
-    color: black;
+    color: #000000;
     text-align: left;
     padding: 5px;
     margin: 10px;
 }
 
-
-
-
-.imagen1{
-    
-    margin: 40px;
-    width: 60%;
-    height: auto;
-    border-radius: 5px;
-    
-}
 
 .contacto{
     display: flex;
@@ -157,16 +190,23 @@ body{
 
 
 .contacto p{
-    color: white;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     
 }
 
 .contacto a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     height: 40px;
     font-size: 40px;
     padding: 10px;
+}
+
+.text-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 }
 
