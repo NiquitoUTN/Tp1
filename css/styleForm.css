@@ -38,3 +38,14 @@ body {
     background-color: #112F7D;   
 }
 
+input[type="text"]{
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+input::placeholder{
+    color: #928f8f;
+    font-family: 'Courier New', Courier, monospace;
+
+}
